@@ -5,7 +5,7 @@ body{
 
 #home{
   padding: 30px;
-  background-image: url("img/techback.jpg");
+  background-image: url("Img/techback.jpg");
   text-align: center;
   background-attachment: fixed;
   background-size: cover;
@@ -28,7 +28,7 @@ h1 {
 
 #about{
   min-height: 300px;
-  background-image: url("img/coffee.jpg");
+  background-image: url("Img/coffee.jpg");
 }
 
 ul{
