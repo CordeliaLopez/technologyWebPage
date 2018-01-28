@@ -16,7 +16,13 @@ body{
   width: 50%;
 
 }
+ul {
+  text-color: black;
+}
 
+.navbar{
+  margin-bottom: 0px !important;
+}
 
 h1 {
   color: white;
@@ -27,66 +33,6 @@ h1 {
   background-color: #a1e0a1;
 }
 
-ul{
-  position: fixed;
-  top: 30px;
-  width: 100%;
-  list-style-type: none;
-  margin: 0px;
-  padding:0;
-}
-li{
-  float: right;
-}
-
-li a, .solbtn {
-  display:inline-block;
-  width: 90px;
-  text-align: center;
-  padding: 14px 12px;
-  color: black;
-  text-decoration: none;
-}
-
-li a:hover, .solutionsMenu:hover .solbtn{
-  background-color: black;
-  text-decoration: none;
-  color: white;
-}
-
-li .solutionsMenu{
-  display: inline-block;
-}
-
-.solContent{
-  display: none;
-  position:absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.solContent a{
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  min-width: 160px;
-}
-
-.solContent a:hover {background-color: #f1f1f1}
-
-.solutionsMenu:hover .solContent{
-  display: block;
-}
-
-.active{
-  background-color: #54bf46;
-  color: white;
-
-}
 
 blockquote{
   font-style: italic;
@@ -108,11 +54,12 @@ div.transbox p{
   margin: 10%;
   color: black;
   text-align: left;
+  padding: 0px;
 
 }
 
 #aboutUs{
   text-align: center;
-  color:#54bf46;
-  size: 40px;
+  font-size: 100px;
+  color: #54bf46;
 }
